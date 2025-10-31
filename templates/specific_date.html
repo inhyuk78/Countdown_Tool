@@ -1,0 +1,19 @@
+{% extends 'base.html'%}
+
+{% block content %}
+
+<form action="#" method="POST">
+    <p>Enter a specific date (YYYY-MM-DD HH:MM):</p>
+    <p> <input type="text" name="specific_date" required/></p>
+    <p> <button type="submit" name="action" value="specific"/>submit</button> </p>
+</form>
+
+<form action="#" method="POST">
+    <p> <button type="submit" name="action" value="current"/>Use Current Date</button> </p>
+</form>
+
+{% if final_date %}
+    <p> Your final date: {{ final_date }} </p>
+{% endif %}
+
+{% endblock %}

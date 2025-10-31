@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% if result_specific %}
+    <h2>You have <u><b>{{ result_specific|string }}</b></u> left until {{ final_date }}</h2>
+{% elif result_current %}
+    <h2>You have <u><b>{{ result_current|string }}</b></u> left until {{ final_date }}</h2>
+{% endif %}
+
+{% endblock %}
