@@ -3,7 +3,7 @@ This repository contains all the files necessary for my Countdown Tool project.
 
 Project overview:
 
-The Countdown Tool is a simple Flask web application that calculates the time remaining until a specified end date. It was built primarily as a learning project to explore the fundamentals of Flask and web app development.
+The Countdown Tool is a simple Flask web application that calculates the time remaining until a specified end date. It was built primarily as a learning project to explore the fundamentals of Python library (Flask) and web app development.
 
 Purpose:
 1) Learn and practice Flask, including routing, HTML templating (Jinja2), and session handling.
